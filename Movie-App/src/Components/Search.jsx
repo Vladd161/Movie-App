@@ -11,6 +11,7 @@ const Search = ({searchTerm, setSearchTerm}) => {
                 placeholder="Search through thounsands of movies"
                 value={searchTerm}
                 onChange={(event) => setSearchTerm(event.target.value)}
+                //value + onChange combo makes it so that searchbar is dynamically changing on type
             />
         </div>
         </div>
